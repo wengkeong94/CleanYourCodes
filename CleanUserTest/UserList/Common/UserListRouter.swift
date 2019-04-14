@@ -18,5 +18,14 @@ struct UserListRouter {
 }
 
 extension UserListRouter: UserListRoutable {
-
+    func goToUserDetail(with user: UserObject) {
+        let identifier = String(describing: UserDetailsVC.self)
+        guard let userDetailsVC = UIViewController.vc(
+            "Main",
+            identifier: identifier
+            ) as? UserDetailsVC else { return }
+        
+        userDetailsVC.viewModel.inputs.configure(user: user)
+        viewController?.navigationController?.pushViewController(userDetailsVC, animated: true)
+    }
 }

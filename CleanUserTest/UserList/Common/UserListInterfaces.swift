@@ -23,5 +23,5 @@ protocol UserListPresentable { //Presenter
 }
 
 protocol UserListRoutable { //Routable
-
+    func goToUserDetail(with user: UserObject)
 }

@@ -121,6 +121,7 @@ extension UserListVC: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedUser = viewModel.outputs.users.value[indexPath.row]
+        router.goToUserDetail(with: selectedUser)
     }
 }
 
