@@ -13,6 +13,19 @@
 		E97EC85822637A1800EF364C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97EC85722637A1800EF364C /* Assets.xcassets */; };
 		E97EC85B22637A1800EF364C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97EC85922637A1800EF364C /* LaunchScreen.storyboard */; };
 		E97EC86622637A1800EF364C /* CleanUserTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC86522637A1800EF364C /* CleanUserTestUITests.swift */; };
+		E97EC8C5226384AC00EF364C /* UserListVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8B7226384AC00EF364C /* UserListVCViewModel.swift */; };
+		E97EC8C6226384AC00EF364C /* UserListVCDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8B9226384AC00EF364C /* UserListVCDS.swift */; };
+		E97EC8C7226384AC00EF364C /* UserListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97EC8BB226384AC00EF364C /* UserListTVC.xib */; };
+		E97EC8C8226384AC00EF364C /* UserListTVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8BC226384AC00EF364C /* UserListTVCViewModel.swift */; };
+		E97EC8C9226384AC00EF364C /* UserListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8BD226384AC00EF364C /* UserListTVC.swift */; };
+		E97EC8CA226384AC00EF364C /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8BE226384AC00EF364C /* UserListVC.swift */; };
+		E97EC8CB226384AC00EF364C /* UserListInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8C0226384AC00EF364C /* UserListInterfaces.swift */; };
+		E97EC8CC226384AC00EF364C /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8C1226384AC00EF364C /* UserListRouter.swift */; };
+		E97EC8CD226384AC00EF364C /* UserListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8C2226384AC00EF364C /* UserListModels.swift */; };
+		E97EC8CE226384AC00EF364C /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8C3226384AC00EF364C /* UserListInteractor.swift */; };
+		E97EC8CF226384AC00EF364C /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8C4226384AC00EF364C /* UserListPresenter.swift */; };
+		E97EC8FA226384C400EF364C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8F8226384C400EF364C /* Box.swift */; };
+		E97EC8FB226384C400EF364C /* UIViewController+SB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EC8F9226384C400EF364C /* UIViewController+SB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,19 @@
 		E97EC86122637A1800EF364C /* CleanUserTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanUserTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97EC86522637A1800EF364C /* CleanUserTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUserTestUITests.swift; sourceTree = "<group>"; };
 		E97EC86722637A1800EF364C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97EC8B7226384AC00EF364C /* UserListVCViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListVCViewModel.swift; sourceTree = "<group>"; };
+		E97EC8B9226384AC00EF364C /* UserListVCDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListVCDS.swift; sourceTree = "<group>"; };
+		E97EC8BB226384AC00EF364C /* UserListTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserListTVC.xib; sourceTree = "<group>"; };
+		E97EC8BC226384AC00EF364C /* UserListTVCViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTVCViewModel.swift; sourceTree = "<group>"; };
+		E97EC8BD226384AC00EF364C /* UserListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTVC.swift; sourceTree = "<group>"; };
+		E97EC8BE226384AC00EF364C /* UserListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		E97EC8C0226384AC00EF364C /* UserListInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListInterfaces.swift; sourceTree = "<group>"; };
+		E97EC8C1226384AC00EF364C /* UserListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		E97EC8C2226384AC00EF364C /* UserListModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListModels.swift; sourceTree = "<group>"; };
+		E97EC8C3226384AC00EF364C /* UserListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		E97EC8C4226384AC00EF364C /* UserListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		E97EC8F8226384C400EF364C /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		E97EC8F9226384C400EF364C /* UIViewController+SB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+SB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +103,11 @@
 		E97EC84F22637A1700EF364C /* CleanUserTest */ = {
 			isa = PBXGroup;
 			children = (
+				E97EC8B6226384AC00EF364C /* UserList */,
 				E97EC85022637A1700EF364C /* AppDelegate.swift */,
 				E97EC85222637A1700EF364C /* ViewController.swift */,
+				E97EC8F8226384C400EF364C /* Box.swift */,
+				E97EC8F9226384C400EF364C /* UIViewController+SB.swift */,
 				E97EC85422637A1700EF364C /* Main.storyboard */,
 				E97EC85722637A1800EF364C /* Assets.xcassets */,
 				E97EC85922637A1800EF364C /* LaunchScreen.storyboard */,
@@ -94,6 +123,48 @@
 				E97EC86722637A1800EF364C /* Info.plist */,
 			);
 			path = CleanUserTestUITests;
+			sourceTree = "<group>";
+		};
+		E97EC8B6226384AC00EF364C /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				E97EC8B8226384AC00EF364C /* DataSource */,
+				E97EC8BA226384AC00EF364C /* Cells */,
+				E97EC8BF226384AC00EF364C /* Common */,
+				E97EC8BE226384AC00EF364C /* UserListVC.swift */,
+				E97EC8B7226384AC00EF364C /* UserListVCViewModel.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		E97EC8B8226384AC00EF364C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E97EC8B9226384AC00EF364C /* UserListVCDS.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E97EC8BA226384AC00EF364C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E97EC8BB226384AC00EF364C /* UserListTVC.xib */,
+				E97EC8BC226384AC00EF364C /* UserListTVCViewModel.swift */,
+				E97EC8BD226384AC00EF364C /* UserListTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E97EC8BF226384AC00EF364C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E97EC8C0226384AC00EF364C /* UserListInterfaces.swift */,
+				E97EC8C1226384AC00EF364C /* UserListRouter.swift */,
+				E97EC8C2226384AC00EF364C /* UserListModels.swift */,
+				E97EC8C3226384AC00EF364C /* UserListInteractor.swift */,
+				E97EC8C4226384AC00EF364C /* UserListPresenter.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97EC8C7226384AC00EF364C /* UserListTVC.xib in Resources */,
 				E97EC85B22637A1800EF364C /* LaunchScreen.storyboard in Resources */,
 				E97EC85822637A1800EF364C /* Assets.xcassets in Resources */,
 				E97EC85622637A1700EF364C /* Main.storyboard in Resources */,
@@ -197,8 +269,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97EC8FA226384C400EF364C /* Box.swift in Sources */,
+				E97EC8CC226384AC00EF364C /* UserListRouter.swift in Sources */,
+				E97EC8CF226384AC00EF364C /* UserListPresenter.swift in Sources */,
+				E97EC8CE226384AC00EF364C /* UserListInteractor.swift in Sources */,
+				E97EC8CA226384AC00EF364C /* UserListVC.swift in Sources */,
+				E97EC8C6226384AC00EF364C /* UserListVCDS.swift in Sources */,
+				E97EC8CB226384AC00EF364C /* UserListInterfaces.swift in Sources */,
+				E97EC8C5226384AC00EF364C /* UserListVCViewModel.swift in Sources */,
+				E97EC8FB226384C400EF364C /* UIViewController+SB.swift in Sources */,
+				E97EC8C9226384AC00EF364C /* UserListTVC.swift in Sources */,
 				E97EC85322637A1700EF364C /* ViewController.swift in Sources */,
 				E97EC85122637A1700EF364C /* AppDelegate.swift in Sources */,
+				E97EC8CD226384AC00EF364C /* UserListModels.swift in Sources */,
+				E97EC8C8226384AC00EF364C /* UserListTVCViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6D2Z6798S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CleanUserTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -379,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6D2Z6798S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CleanUserTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
